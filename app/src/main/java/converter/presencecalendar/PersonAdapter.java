@@ -44,7 +44,7 @@ public class PersonAdapter extends ArrayAdapter<Contact> {
 
         Contact person = data.get(position);
 
-        holder.name.setText("Name: "+person.getName()+" Surname: "+person.getSurname());
+        holder.name.setText("First Name: "+person.getName()+" Surname: "+person.getSurname());
         holder.date.setText("Date: "+person.getDate()+" Time: "+person.getTime());
 
         return row;

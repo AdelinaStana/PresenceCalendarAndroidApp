@@ -70,7 +70,7 @@ public class ExportActivity extends Activity {
     protected void yesNoDialog() {
 
         AlertDialog alertbox = new AlertDialog.Builder(this)
-                .setMessage("Do you want to exit application?")
+                .setMessage("Do you want to delete all records?")
                 .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
 
                     public void onClick(DialogInterface arg0, int arg1) {
