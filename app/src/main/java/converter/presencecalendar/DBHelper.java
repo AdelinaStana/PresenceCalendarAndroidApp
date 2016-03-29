@@ -112,7 +112,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
         if (cursor.moveToFirst()) {
             do {
-                String name_surname =  cursor.getString(0)+" "+cursor.getString(1);
+                String name_surname =  cursor.getString(1)+" "+cursor.getString(0);
                 name_surname = name_surname.toLowerCase();
                 if(name_surname.equals(name))
                 {
