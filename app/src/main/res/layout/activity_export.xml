@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    tools:context=".CalendarActivity"
+    android:background="#70C0C0C0"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+                android:id="@+id/download_button"
+                android:background="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:cropToPadding="true"
+                android:src="@drawable/ic_download2"
+                android:layout_gravity="center_horizontal" />
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/label11"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="Download Report"
+            android:padding="10dip"
+            android:textSize="16dip"
+            android:textStyle="bold" >
+        </TextView>
+
+
+        <ImageButton
+            android:id="@+id/open_button"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cropToPadding="true"
+            android:src="@drawable/ic_search2"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/label33"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="Open Folder"
+            android:padding="10dip"
+            android:textSize="16dip"
+            android:textStyle="bold" >
+        </TextView>
+
+
+        <ImageButton
+            android:id="@+id/bin_button"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cropToPadding="true"
+            android:src="@drawable/ic_recycle"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/label22"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="Delete Data"
+            android:padding="10dip"
+            android:textSize="16dip"
+            android:textStyle="bold" >
+        </TextView>>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

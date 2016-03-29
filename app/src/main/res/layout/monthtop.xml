@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingRight="25dp"
+    android:paddingLeft="25dp"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/left_arrow"
+        android:id="@+id/imgLeft"
+        android:layout_centerVertical="true"/>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/txtDay"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="Week"
+            android:textStyle="bold"/>
+        <TextView
+            android:paddingLeft="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/txtYear"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/right_arrow"
+        android:id="@+id/imgRight"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
